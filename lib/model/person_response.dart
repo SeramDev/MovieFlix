@@ -1,4 +1,4 @@
-import 'package:movieapp/model/person.dart';
+import 'package:movieflix/model/person.dart';
 
 class PersonResponse {
   final List<Person> persons;

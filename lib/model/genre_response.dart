@@ -1,4 +1,4 @@
-import 'package:movieapp/model/genre.dart';
+import 'package:movieflix/model/genre.dart';
 
 class GenreResponse {
   final List<Genre> genres;

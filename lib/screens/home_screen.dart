@@ -1,10 +1,10 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:movieapp/style/theme.dart' as Style;
-import 'package:movieapp/widgets/best_movies.dart';
-import 'package:movieapp/widgets/genres.dart';
-import 'package:movieapp/widgets/now_playing.dart';
-import 'package:movieapp/widgets/persons.dart';
+import 'package:movieflix/style/theme.dart' as Style;
+import 'package:movieflix/widgets/best_movies.dart';
+import 'package:movieflix/widgets/genres.dart';
+import 'package:movieflix/widgets/now_playing.dart';
+import 'package:movieflix/widgets/persons.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -19,13 +19,18 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Style.Colors.mainColor,
         centerTitle: true,
-        leading: Icon(EvaIcons.menu2Outline, color: Colors.white,),
-        title: Text("Discover"),
+        leading: Icon(
+          EvaIcons.menu2Outline,
+          color: Colors.white,
+        ),
+        title: Text("MovieFlix"),
         actions: <Widget>[
           IconButton(
-            onPressed: () {},
-            icon: Icon(EvaIcons.searchOutline, color: Colors.white,)
-          )
+              onPressed: () {},
+              icon: Icon(
+                EvaIcons.searchOutline,
+                color: Colors.white,
+              ))
         ],
       ),
       body: ListView(

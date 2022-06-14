@@ -1,5 +1,5 @@
-import 'package:movieapp/model/person_response.dart';
-import 'package:movieapp/repository/repository.dart';
+import 'package:movieflix/model/person_response.dart';
+import 'package:movieflix/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PersonsListBloc {

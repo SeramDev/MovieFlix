@@ -1,8 +1,8 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:movieapp/model/movie.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/model/movie.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 class MovieGenre extends StatefulWidget {
   final List<Movie> movies;

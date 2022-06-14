@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:movieapp/bloc/get_persons_bloc.dart';
-import 'package:movieapp/model/person.dart';
-import 'package:movieapp/model/person_response.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_persons_bloc.dart';
+import 'package:movieflix/model/person.dart';
+import 'package:movieflix/model/person_response.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 class PersonsList extends StatefulWidget {
   @override

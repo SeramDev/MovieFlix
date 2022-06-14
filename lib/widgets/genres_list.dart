@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movieapp/bloc/get_movies_byGenre_bloc.dart';
-import 'package:movieapp/model/genre.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_movies_byGenre_bloc.dart';
+import 'package:movieflix/model/genre.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 import 'movies_by_genre.dart';
 

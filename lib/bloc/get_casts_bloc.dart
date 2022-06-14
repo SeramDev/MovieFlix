@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movieapp/model/cast_response.dart';
-import 'package:movieapp/repository/repository.dart';
+import 'package:movieflix/model/cast_response.dart';
+import 'package:movieflix/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class CastsBloc {

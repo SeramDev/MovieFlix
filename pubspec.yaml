@@ -1,5 +1,5 @@
-name: movieapp
-description: A new Flutter project.
+name: movieflix
+description: A movie project.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -14,21 +14,22 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.11.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  bloc: ^7.0.0
+
+  bloc: ^8.0.3
   cupertino_icons: ^1.0.2
   dio: ^4.0.0
   eva_icons_flutter: ^3.0.0
   flutter_rating_bar: ^4.0.0
-  font_awesome_flutter: ^9.0.0
+  font_awesome_flutter: ^10.1.0
   page_indicator: ^0.4.1
-  rxdart: ^0.26.0
+  rxdart: ^0.27.4
   sliver_fab: ^1.0.0
-  youtube_player_flutter: ^8.0.0
+  youtube_player_flutter: ^8.1.0
 
 dev_dependencies:
   flutter_test:

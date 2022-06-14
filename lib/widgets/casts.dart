@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:movieapp/bloc/get_casts_bloc.dart';
-import 'package:movieapp/model/cast.dart';
-import 'package:movieapp/model/cast_response.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_casts_bloc.dart';
+import 'package:movieflix/model/cast.dart';
+import 'package:movieflix/model/cast_response.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 class Casts extends StatefulWidget {
   final int id;

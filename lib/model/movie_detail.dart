@@ -1,5 +1,5 @@
-import 'package:movieapp/model/company.dart';
-import 'package:movieapp/model/genre.dart';
+import 'package:movieflix/model/company.dart';
+import 'package:movieflix/model/genre.dart';
 
 class MovieDetail {
   final int id;

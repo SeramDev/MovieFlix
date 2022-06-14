@@ -1,10 +1,10 @@
-import 'package:movieapp/model/cast_response.dart';
-import 'package:movieapp/model/genre_response.dart';
-import 'package:movieapp/model/movie_detail_response.dart';
-import 'package:movieapp/model/movie_response.dart';
+import 'package:movieflix/model/cast_response.dart';
+import 'package:movieflix/model/genre_response.dart';
+import 'package:movieflix/model/movie_detail_response.dart';
+import 'package:movieflix/model/movie_response.dart';
 import 'package:dio/dio.dart';
-import 'package:movieapp/model/person_response.dart';
-import 'package:movieapp/model/video_response.dart';
+import 'package:movieflix/model/person_response.dart';
+import 'package:movieflix/model/video_response.dart';
 
 class MovieRepository {
   final String apiKey = "276bccea5059475bbc74b16c77dd8135";

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:movieapp/bloc/get_now_playing_bloc.dart';
-import 'package:movieapp/model/movie.dart';
-import 'package:movieapp/model/movie_response.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_now_playing_bloc.dart';
+import 'package:movieflix/model/movie.dart';
+import 'package:movieflix/model/movie_response.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 import 'package:page_indicator/page_indicator.dart';
 
 class NowPlaying extends StatefulWidget {
@@ -140,17 +139,17 @@ class _NowPlayingState extends State<NowPlaying> {
                             ]),
                       ),
                     ),
-                    Positioned(
-                      bottom: 0.0,
-                      top: 0.0,
-                      left: 0.0,
-                      right: 0.0,
-                      child: Icon(
-                        FontAwesomeIcons.playCircle,
-                        color: Style.Colors.secondColor,
-                        size: 40.0,
-                      ),
-                    ),
+                    // Positioned(
+                    //   bottom: 0.0,
+                    //   top: 0.0,
+                    //   left: 0.0,
+                    //   right: 0.0,
+                    //   child: Icon(
+                    //     FontAwesomeIcons.playCircle,
+                    //     color: Style.Colors.secondColor,
+                    //     size: 40.0,
+                    //   ),
+                    // ),
                     Positioned(
                         bottom: 30.0,
                         child: Container(

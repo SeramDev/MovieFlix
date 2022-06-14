@@ -1,4 +1,4 @@
-import 'package:movieapp/model/video.dart';
+import 'package:movieflix/model/video.dart';
 
 class VideoResponse {
   final List<Video> videos;

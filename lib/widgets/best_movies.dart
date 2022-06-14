@@ -1,10 +1,10 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:movieapp/bloc/get_movies_bloc.dart';
-import 'package:movieapp/model/movie.dart';
-import 'package:movieapp/model/movie_response.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_movies_bloc.dart';
+import 'package:movieflix/model/movie.dart';
+import 'package:movieflix/model/movie_response.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 class BestMovies extends StatefulWidget {
   @override

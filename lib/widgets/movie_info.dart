@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:movieapp/bloc/get_movie_detail_bloc.dart';
-import 'package:movieapp/model/movie_detail.dart';
-import 'package:movieapp/model/movie_detail_response.dart';
-import 'package:movieapp/style/theme.dart' as Style;
+import 'package:movieflix/bloc/get_movie_detail_bloc.dart';
+import 'package:movieflix/model/movie_detail.dart';
+import 'package:movieflix/model/movie_detail_response.dart';
+import 'package:movieflix/style/theme.dart' as Style;
 
 class MovieInfo extends StatefulWidget {
   final int id;
