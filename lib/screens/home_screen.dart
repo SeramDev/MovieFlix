@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:movieflix/style/theme.dart' as Style;
 import 'package:movieflix/widgets/best_movies.dart';
 import 'package:movieflix/widgets/genres.dart';
+import 'package:movieflix/widgets/navigator.dart';
 import 'package:movieflix/widgets/now_playing.dart';
 import 'package:movieflix/widgets/persons.dart';
 
@@ -19,10 +20,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Style.Colors.mainColor,
         centerTitle: true,
-        leading: Icon(
-          EvaIcons.menu2Outline,
-          color: Colors.white,
-        ),
         title: Text("MovieFlix"),
         actions: <Widget>[
           IconButton(
@@ -41,6 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
           BestMovies(),
         ],
       ),
+      drawer: NavigationDrawer(),
     );
   }
 }
