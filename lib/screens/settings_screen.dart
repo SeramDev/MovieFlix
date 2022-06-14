@@ -56,7 +56,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   "General",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -88,7 +88,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   "Preferences",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

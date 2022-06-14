@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:movieflix/model/images.dart';
 import 'package:movieflix/style/theme.dart' as Style;
 import 'package:movieflix/widgets/navigator.dart';
-// import 'package:movieflix/assets/images.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({Key key}) : super(key: key);
