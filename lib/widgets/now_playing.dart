@@ -127,48 +127,36 @@ class _NowPlayingState extends State<NowPlaying> {
                     Container(
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.topCenter,
-                            stops: [
-                              0.0,
-                              0.9
-                            ],
-                            colors: [
-                              Style.Colors.mainColor.withOpacity(1.0),
-                              Style.Colors.mainColor.withOpacity(0.0)
-                            ]),
+                          begin: Alignment.bottomCenter,
+                          end: Alignment.topCenter,
+                          stops: [0.0, 0.9],
+                          colors: [
+                            Style.Colors.mainColor.withOpacity(1.0),
+                            Style.Colors.mainColor.withOpacity(0.0)
+                          ],
+                        ),
                       ),
                     ),
-                    // Positioned(
-                    //   bottom: 0.0,
-                    //   top: 0.0,
-                    //   left: 0.0,
-                    //   right: 0.0,
-                    //   child: Icon(
-                    //     FontAwesomeIcons.playCircle,
-                    //     color: Style.Colors.secondColor,
-                    //     size: 40.0,
-                    //   ),
-                    // ),
                     Positioned(
-                        bottom: 30.0,
-                        child: Container(
-                          padding: EdgeInsets.only(left: 10.0, right: 10.0),
-                          width: 250.0,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                movies[index].title,
-                                style: TextStyle(
-                                    height: 1.5,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 18.0),
-                              ),
-                            ],
-                          ),
-                        )),
+                      bottom: 30.0,
+                      child: Container(
+                        padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                        width: 250.0,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text(
+                              movies[index].title,
+                              style: TextStyle(
+                                  height: 1.5,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18.0),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               );

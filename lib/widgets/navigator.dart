@@ -72,7 +72,7 @@ class NavigationDrawer extends StatelessWidget {
                 ),
                 ListTile(
                   title: Text(
-                    "About",
+                    "App Info",
                     style: TextStyle(
                       fontSize: 17.0,
                     ),

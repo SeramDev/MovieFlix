@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
             SizedBox(
               height: 50,
             ),
-            SpinKitFadingCircle(
+            SpinKitPulse(
               color: Colors.white,
               size: 45.0,
             ),

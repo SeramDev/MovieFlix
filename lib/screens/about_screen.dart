@@ -17,25 +17,25 @@ class AboutScreen extends StatelessWidget {
         backgroundColor: Style.Colors.mainColor,
       ),
       body: Container(
+        height: double.infinity,
         width: double.infinity,
         padding: EdgeInsets.all(10.0),
+        margin: EdgeInsets.only(top: 10.0),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Row(
+            Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  width: 200,
-                  child: Image.asset(Images.logo),
+                  width: 210,
+                  child: Image.asset(Images.logo, fit: BoxFit.cover),
                 ),
-              ],
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Column(
-              children: [
+                SizedBox(
+                  height: 10.0,
+                ),
                 Container(
+                  margin: EdgeInsets.only(top: 5.0),
                   child: Text(
                     "Movie Flix is the most fastest and easiest app for anyone who’s looking for a quick opinion about a movie. It help you in finding movies, ratings, reviews, recommendations, trailers, actors and much more. Movie flix is for absolute movies and tv series lovers. Movie Flix uses The Movie Database(TMDB) API to retrieve data.",
                     textAlign: TextAlign.justify,
@@ -43,16 +43,13 @@ class AboutScreen extends StatelessWidget {
                         color: Colors.white, fontWeight: FontWeight.w500),
                   ),
                 ),
-                SizedBox(
-                  height: 330.0,
-                ),
-                Text(
-                  "2022 \u00a9 MovieFlix.Inc",
-                  style: TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.w500),
-                ),
               ],
-            )
+            ),
+            Text(
+              "2022 \u00a9 MovieFlix.Inc",
+              style:
+                  TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+            ),
           ],
         ),
       ),
