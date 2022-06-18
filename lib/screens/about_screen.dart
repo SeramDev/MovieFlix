@@ -37,7 +37,7 @@ class AboutScreen extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.only(top: 5.0),
                   child: Text(
-                    "Movie Flix is the most fastest and easiest app for anyone who’s looking for a quick opinion about a movie. It help you in finding movies, ratings, reviews, recommendations, trailers, actors and much more. Movie flix is for absolute movies and tv series lovers. Movie Flix uses The Movie Database(TMDB) API to retrieve data.",
+                    "Movie Flix is the most fastest and easiest app for anyone who’s looking for a quick opinion about a movie. It help you in finding movies, ratings, reviews, recommendations, trailers, actors and much more. Movie flix is for absolute movies and tv series lovers. Movie Flix uses The Movie Database(TMDB) API to retrieve data.\n\nWith this Movie & TV Show tracker, you can also find season and movie ratings to make a solid decision on what to watch next. Movie flix gives you flexibility and control to customize your home screen with your own card categories and also get personal movie recommendation based on your taste.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.w500),
