@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movieflix/screens/home_screen.dart';
+import 'package:movieflix/model/images.dart';
 import 'package:movieflix/screens/about_screen.dart';
+import 'package:movieflix/screens/home_screen.dart';
 import 'package:movieflix/screens/settings_screen.dart';
 import 'package:movieflix/style/theme.dart' as Style;
 
@@ -14,8 +15,8 @@ class NavigationDrawer extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          DrawerHeader(
-            child: Text(
+          UserAccountsDrawerHeader(
+            accountName: Text(
               "MovieFlix",
               style: TextStyle(
                 color: Colors.white,
@@ -24,6 +25,10 @@ class NavigationDrawer extends StatelessWidget {
             ),
             decoration: BoxDecoration(
               color: Style.Colors.mainColor,
+            ),
+            currentAccountPicture: CircleAvatar(
+              backgroundColor: Style.Colors.mainColor,
+              child: Image.asset(Images.icon),
             ),
           ),
           Container(

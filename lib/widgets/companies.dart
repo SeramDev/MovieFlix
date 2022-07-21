@@ -138,7 +138,7 @@ class _CompaniesState extends State<Companies> {
                                   shape: BoxShape.circle,
                                   color: Style.Colors.secondColor),
                               child: Icon(
-                                FontAwesomeIcons.userAlt,
+                                FontAwesomeIcons.userLarge,
                                 color: Colors.white,
                               ),
                             ),
